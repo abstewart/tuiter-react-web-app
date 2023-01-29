@@ -1,0 +1,67 @@
+.wd-bg-black {
+    background-color: black;
+}
+.wd-border-color {
+    border-color: rgb(47, 51, 54);
+}
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+}
+.wd-border-solid {
+    border-style: solid;
+}
+.wd-margin-bottom-5 {
+    margin-bottom: 5px;
+}
+.wd-border-style-none {
+    border-style: none;
+}
+.wd-text-white {
+    color: white;
+}
+.wd-bg-dark-gray {
+    background-color: #2d3133;
+}
+.wd-search-size {
+    width: calc(100% - 60px);
+    height: 25px;
+}
+.wd-search-corners {
+    border-radius: 10px;
+}
+.wd-search-padding {
+    padding-left: 30px;
+}
+
+.wd-box-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-float-done {
+    clear: both;
+}
+.wd-position-relative {
+    position: absolute;
+    right: calc(100% - 55px);
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-subtitle-size {
+    font-size: 13px;
+}
+.wd-subtitle-color {
+    color: rgb(110, 118, 125);
+}
