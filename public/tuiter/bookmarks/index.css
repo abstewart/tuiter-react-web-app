@@ -11,6 +11,18 @@
 .wd-padding-left-16 {
     padding-left: 16px;
 }
+.wd-margin-left-12 {
+    margin-left: 12px;
+}
+.wd-margin-right-16 {
+    margin-right: 16px;
+}
+.wd-margin-bottom-12 {
+    margin-bottom: 12px;
+}
+.wd-margin-left-60 {
+    margin-left: 60px;
+}
 .wd-padding-top-12 {
     padding-top: 12px;
 }
@@ -24,9 +36,21 @@
 .wd-width-half {
     width: 50%;
 }
-.make-circle-48 {
+.wd-make-circle-48 {
     object-fit: cover;
     width: 48px;
     height: 48px;
     border-radius: 50%;
+}
+
+.wd-15pt {
+    font-size: 15px;
+}
+
+.wd-width-506px {
+    max-width: 506px;
+}
+
+.wd-float-no-wrap {
+    overflow: clip;
 }
