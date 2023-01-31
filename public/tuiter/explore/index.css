@@ -30,8 +30,14 @@
 .wd-search-corners {
     border-radius: 10px;
 }
-.wd-search-padding {
+.wd-padding-left {
     padding-left: 30px;
+}
+.wd-padding-image-right {
+    padding-right: 130px;
+}
+.wd-image-border {
+    border-radius: 15px;
 }
 
 .wd-box-padding {
@@ -62,6 +68,13 @@
 .wd-subtitle-size {
     font-size: 13px;
 }
+
+.make-square-100 {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
 .wd-subtitle-color {
     color: rgb(110, 118, 125);
 }
