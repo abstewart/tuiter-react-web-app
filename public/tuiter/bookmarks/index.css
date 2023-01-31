@@ -1,0 +1,32 @@
+.wd-color-blue {
+    color: #6994f6;
+}
+
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+.wd-padding-left-16 {
+    padding-left: 16px;
+}
+.wd-padding-top-12 {
+    padding-top: 12px;
+}
+.wd-padding-bot-12{
+    padding-bottom: 12px;
+}
+
+.wd-title-size-20 {
+    font-size: 20px;
+}
+.wd-width-half {
+    width: 50%;
+}
+.make-circle-48 {
+    object-fit: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}

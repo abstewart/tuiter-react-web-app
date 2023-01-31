@@ -1,0 +1,35 @@
+.wd-bg-black {
+    background-color: black;
+}
+
+.wd-border-color {
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wd-subtitle-size {
+    font-size: 13px;
+}
+
+.wd-subtitle-color {
+    color: rgb(110, 118, 125);
+}
+
+.wd-text-white {
+    color: white;
+}
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
+    clear: both;
+}
