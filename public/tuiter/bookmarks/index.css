@@ -50,7 +50,24 @@
 .wd-width-506px {
     max-width: 506px;
 }
-
 .wd-float-no-wrap {
-    overflow: clip;
+    overflow-x: clip;
 }
+.wd-image-top-rounded {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.wd-border-bottom {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.wd-padding-all-12 {
+    padding: 12px;
+}
+.wd-border-color-white {
+    border-color: rgb(47, 51, 54);
+}
+
