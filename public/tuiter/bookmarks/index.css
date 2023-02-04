@@ -57,11 +57,14 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.wd-rounded-corners {
+    border-radius: 15px;
+}
 .wd-border-bottom {
     border-left: 0;
     border-right: 0;
     border-top: 0;
-    border-bottom: 1px;
+    border-bottom-width: 1px;
     border-style: solid;
 }
 .wd-padding-all-12 {
@@ -69,5 +72,37 @@
 }
 .wd-border-bottom-color {
     border-bottom-color: rgb(47, 51, 54);
+}
+
+.wd-anchor-nostyle {
+    text-decoration: none;
+}
+
+.wd-width-25pc {
+    width: 24.25%;
+}
+.wd-display-inline-block {
+    display: inline-block;
+}
+
+.wd-invert-color {
+    filter: invert(100%)
+}
+
+.wd-margin-top-3 {
+    margin-top: 3px;
+}
+
+.wd-up-3px {
+    position: relative;
+    bottom: 3px;
+}
+
+.wd-hidden {
+    visibility: hidden;
+}
+
+.wd-pink-red-color {
+    color: #e55151;
 }
 

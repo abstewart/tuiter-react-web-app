@@ -33,3 +33,7 @@
 .wd-float-done {
     clear: both;
 }
+
+.wd-image-border {
+    border-radius: 15px;
+}
