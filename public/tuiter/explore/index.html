@@ -47,12 +47,71 @@
 
       <!--    Main content page-->
       <div class="col-6">
-        main page
+        <!--  Search bar-->
+        <div>
+
+
+        </div>
+
+        <!-- Tabs-->
+        <div>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">For you</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--  Spacex image + text-->
+        <div class="mt-1 position-relative">
+          <img class="img-fluid" src="../../images/spacex_starship.webp" alt="Spacex starship">
+          <span class="fs-3 text-white position-absolute bottom-0 start-0 ps-1">SpaceX's Starship</span>
+        </div>
+
+        <!--  Tuits-->
+        <div class="list-group">
+          <div class="list-group-item">
+            <div class="row">
+              <!--  Tuit stuff-->
+              <div class="col-10">
+                <div class="text-secondary">Web Development</div>
+                <div>
+                  <span class="fw-bold">ReactJS</span>
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="text-secondary">- 2h</span>
+                </div>
+                <div class="fw-semibold">
+                  React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
+                </div>
+
+              </div>
+              <!-- Image on right of tuit-->
+              <div class="col-2">
+                <img class="img-fluid wd-tuit-img-rounded-corner" src="../../images/react_logo.webp" alt="react js logo">
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <!--    Right side bar-->
-      <!--  TODO Make follow button vertical height smaller-->
-      <div class="col-3">
+      <div class="col-4">
         <div class="list-group">
 
           <div class="list-group-item"><b>Who to follow</b></div>
@@ -62,7 +121,7 @@
               <div class="col-2">
                 <img class="wd-image-bigger-and-shift" src="../../images/java_icon.png" alt="java logo">
               </div>
-              <div class="col-6">
+              <div class="col-7">
                 <div class="fw-bold">Java
                   <span class="fa-stack small">
                     <i class="fa-solid fa-certificate fa-stack-2x"></i>
@@ -71,8 +130,8 @@
                 </div>
                 <div class="">@Java</div>
               </div>
-              <div class="d-grid gap-2 col-4 mx-auto ">
-                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller">
+              <div class="d-grid gap-2 col-3 mx-auto ">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller mt-1 mb-1">
                   Follow</button>
               </div>
             </div>
@@ -80,45 +139,85 @@
 
           <div class="list-group-item">
             <div class="row">
-              <div class="col-2">Img</div>
-              <div class="col-7">
-                <div>Relativity Space</div>
-                <div>@relativityspace</div>
+              <div class="col-2">
+                <img class="wd-image-bigger-and-shift" src="../../images/relativity_space_logo.jpg" alt="java logo">
               </div>
-              <div class="col-3">Follow</div>
+              <div class="col-7">
+                <div class="fw-bold">Relativity Space
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="">@relativityspace</div>
+              </div>
+              <div class="d-grid gap-2 col-3 mx-auto">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller mt-1 mb-1 ">
+                  Follow</button>
+              </div>
             </div>
           </div>
 
           <div class="list-group-item">
             <div class="row">
-              <div class="col-2">Img</div>
-              <div class="col-7">
-                <div>Virgin Galactic</div>
-                <div>@virgingalactic</div>
+              <div class="col-2">
+                <img class="wd-image-bigger-and-shift" src="../../images/virgin_logo.svg" alt="java logo">
               </div>
-              <div class="col-3">Follow</div>
+              <div class="col-7">
+                <div class="fw-bold">Virgin Galactic
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="">@virgingalactic</div>
+              </div>
+              <div class="d-grid gap-2 col-3 mx-auto">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller mt-1 mb-1 ">
+                  Follow</button>
+              </div>
             </div>
           </div>
 
           <div class="list-group-item">
             <div class="row">
-              <div class="col-2">Img</div>
-              <div class="col-7">
-                <div>NASA</div>
-                <div>@NASA</div>
+              <div class="col-2">
+                <img class="wd-image-bigger-and-shift" src="../../images/nasa_logo.webp" alt="java logo">
               </div>
-              <div class="col-3">Follow</div>
+              <div class="col-7">
+                <div class="fw-bold">NASA
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="">@NASA</div>
+              </div>
+              <div class="d-grid gap-2 col-3 mx-auto">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller mt-1 mb-1 ">
+                  Follow</button>
+              </div>
             </div>
           </div>
 
           <div class="list-group-item">
             <div class="row">
-              <div class="col-2">Img</div>
-              <div class="col-7">
-                <div>Tesla</div>
-                <div>@Tesla</div>
+              <div class="col-2">
+                <img class="wd-image-bigger-and-shift" src="../../images/tesla_logo.png" alt="java logo">
               </div>
-              <div class="col-3">Follow</div>
+              <div class="col-7">
+                <div class="fw-bold">Tesla
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="">@Tesla</div>
+              </div>
+              <div class="d-grid gap-2 col-3 mx-auto">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller mt-1 mb-1 ">
+                  Follow</button>
+              </div>
             </div>
           </div>
 
