@@ -12,7 +12,7 @@
     <div class="row">
       <!--    Left navigation sidebar-->
       <!--    TODO check if any of these links should go anywhere-->
-      <div class="col-2">
+      <div class="col-2 mt-2">
         <div class="list-group">
           <div class="list-group-item"><i class="fab fa-twitter"></i></div>
           <a href="#" class="list-group-item list-group-item-action">
@@ -46,9 +46,27 @@
       </div>
 
       <!--    Main content page-->
-      <div class="col-6">
+      <div class="col-6 mt-2">
         <!--  Search bar-->
-        <div>
+        <div class="mb-2">
+          <div class="row">
+            <div class="col-11 position-relative">
+              <input type="text"
+                     class="form-control wd-search-corners ps-5"
+                     id="search_input"
+                     placeholder="Search Tuiter">
+              <div class="position-absolute top-0 start-0 ms-4 mt-2">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="mt-2">
+                <a href="#" class="mt-5">
+                  <i class="fa-solid fa-gear fa-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
 
         </div>
@@ -106,12 +124,85 @@
               </div>
             </div>
           </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <!--  Tuit stuff-->
+              <div class="col-10">
+                <div>
+                  <span class="fw-bold">JavaScript</span>
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="text-secondary">- 2h</span>
+                </div>
+                <div class="fw-semibold">
+                  JavaScript is programming language that can run on browsers as well as desktops
+                </div>
+                <div class="text-secondary">
+                  123K Tuits
+                </div>
+
+              </div>
+              <!-- Image on right of tuit-->
+              <div class="col-2">
+                <img class="img-fluid wd-tuit-img-rounded-corner" src="../../images/JavaScript_logo.png" alt="JavaScript logo">
+              </div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <!--  Tuit stuff-->
+              <div class="col-10">
+                <div class="text-secondary">Web Development</div>
+                <div>
+                  <span class="fw-bold">jQuery</span>
+                </div>
+                <div class="text-secondary">
+                  123K Tuits
+                </div>
+
+              </div>
+              <!-- Image on right of tuit-->
+              <div class="col-2">
+                <img class="img-fluid wd-tuit-img-rounded-corner" src="../../images/jquery_logo.png" alt="react js logo">
+              </div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <!--  Tuit stuff-->
+              <div class="col-10">
+                <div class="text-secondary">Web Development</div>
+                <div>
+                  <span class="fw-bold">NodeJS</span>
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <span class="text-secondary">- 2h</span>
+                </div>
+                <div class="text-secondary">
+                  123K Tuits
+                </div>
+
+              </div>
+              <!-- Image on right of tuit-->
+              <div class="col-2">
+                <img class="img-fluid wd-tuit-img-rounded-corner" src="../../images/nodejs_logo.png" alt="Node JS logo">
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
 
       <!--    Right side bar-->
-      <div class="col-4">
+      <div class="col-4 mt-2">
         <div class="list-group">
 
           <div class="list-group-item"><b>Who to follow</b></div>
