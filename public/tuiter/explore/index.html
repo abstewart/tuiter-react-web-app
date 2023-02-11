@@ -8,66 +8,124 @@
   <link href="index.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container row">
-<!--    Left navigation sidebar-->
-<!--    TODO check if any of these links should go anywhere-->
-    <div class="col-2">
-      <div class="list-group">
-        <div class="list-group-item"><i class="fab fa-twitter"></i></div>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa-solid fa-house"></i> Home</a>
-        <a href="#" class="list-group-item list-group-item-action active">
-          <i class="fa-solid fa-hashtag"></i> Explore</a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa-solid fa-bell"></i> Notifications</a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa-solid fa-envelope"></i> Messages</a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa fa-bookmark"></i> Bookmarks</a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa-solid fa-list-ul"></i> Lists</a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fa-solid fa-user"></i> Profile</a>
-        <a href="#" class="list-group-item list-group-item-action">
+  <div class="container ">
+    <div class="row">
+      <!--    Left navigation sidebar-->
+      <!--    TODO check if any of these links should go anywhere-->
+      <div class="col-2">
+        <div class="list-group">
+          <div class="list-group-item"><i class="fab fa-twitter"></i></div>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-house"></i> Home</a>
+          <a href="#" class="list-group-item list-group-item-action active">
+            <i class="fa-solid fa-hashtag"></i> Explore</a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-bell"></i> Notifications</a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-envelope"></i> Messages</a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa fa-bookmark"></i> Bookmarks</a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-list-ul"></i> Lists</a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-user"></i> Profile</a>
+          <a href="#" class="list-group-item list-group-item-action">
           <span class="fa-stack small">
             <i class="fa-solid fa-circle fa-stack-2x"></i>
             <i class="fa-solid fa-ellipsis fa-stack-2x fa-inverse"></i>
           </span>
-          More
-        </a>
-      </div>
-      <!--  Tuit button-->
-      <div class="d-grid gap-2 mt-2">
-        <button type="button" class="btn btn-primary wd-tuit-round-corner">
-          Tuit</button>
-      </div>
-
-    </div>
-
-<!--    Main content page-->
-    <div class="col-6">
-      main page
-    </div>
-
-<!--    Right side-bar-->
-    <div class="col-3">
-      Right Side Bar
-      <div class="list-group">
-        <div class="list-group-item"><b>Who to follow</b></div>
-        <div class="row">
-<!--          <img class="col-2">-->
-          <div class="col-2">img</div>
-          <div class="col-8">Java</div>
-          <button type="button" class="col-2 btn btn-primary">Follow</button>
+            More
+          </a>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <!--  Tuit button-->
+        <div class="d-grid gap-2 mt-2">
+          <button type="button" class="btn btn-primary wd-tuit-round-corner">
+            Tuit</button>
+        </div>
+
       </div>
+
+      <!--    Main content page-->
+      <div class="col-6">
+        main page
+      </div>
+
+      <!--    Right side bar-->
+      <!--  TODO Make follow button vertical height smaller-->
+      <div class="col-3">
+        <div class="list-group">
+
+          <div class="list-group-item"><b>Who to follow</b></div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <div class="col-2">
+                <img class="wd-image-bigger-and-shift" src="../../images/java_icon.png" alt="java logo">
+              </div>
+              <div class="col-6">
+                <div class="fw-bold">Java
+                  <span class="fa-stack small">
+                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                    <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="">@Java</div>
+              </div>
+              <div class="d-grid gap-2 col-4 mx-auto ">
+                <button type="button" class="btn btn-primary wd-follow-btn-rounded-smaller">
+                  Follow</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <div class="col-2">Img</div>
+              <div class="col-7">
+                <div>Relativity Space</div>
+                <div>@relativityspace</div>
+              </div>
+              <div class="col-3">Follow</div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <div class="col-2">Img</div>
+              <div class="col-7">
+                <div>Virgin Galactic</div>
+                <div>@virgingalactic</div>
+              </div>
+              <div class="col-3">Follow</div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <div class="col-2">Img</div>
+              <div class="col-7">
+                <div>NASA</div>
+                <div>@NASA</div>
+              </div>
+              <div class="col-3">Follow</div>
+            </div>
+          </div>
+
+          <div class="list-group-item">
+            <div class="row">
+              <div class="col-2">Img</div>
+              <div class="col-7">
+                <div>Tesla</div>
+                <div>@Tesla</div>
+              </div>
+              <div class="col-3">Follow</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
-
-
   </div>
 </body>
 </html>

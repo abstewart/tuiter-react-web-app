@@ -3,3 +3,15 @@
 .wd-tuit-round-corner {
     border-radius: 20px;
 }
+
+.wd-follow-btn-rounded-smaller {
+    border-radius: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.wd-image-bigger-and-shift {
+    height: 40px;
+    position: relative;
+    right: 4px;
+}
