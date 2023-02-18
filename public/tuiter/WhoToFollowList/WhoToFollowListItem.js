@@ -1,5 +1,5 @@
 
-const potentialListItem = {
+const exampleListItem = {
     avatarIcon: '../../images/virgin_logo.svg',
     userName: 'Virgin Galactic',
     handle: 'virgingalactic',
@@ -18,8 +18,8 @@ const WhoToFollowListItem = who => {
               <div class="col-6 col-xl-7">
                 <div class="fw-bold">
                 <span>${userName}</span>
-                  <span class="fa-stack small">
-                    <i class="fa-solid fa-certificate fa-stack-2x"></i>
+                  <span class="fa-stack">
+                    <i class="fa-solid fa-certificate fa-stack-1x"></i>
                     <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
                   </span>
                 </div>
@@ -38,8 +38,8 @@ const WhoToFollowListItem = who => {
 export default WhoToFollowListItem;
 
 
-function renderNavBar() {
-    $('#wtfli').append(WhoToFollowListItem(potentialListItem));
+function renderWhoToFollowListItem() {
+    $('#wtfli').append(WhoToFollowListItem(exampleListItem));
 
 }
-$(renderNavBar)
+$(renderWhoToFollowListItem)
