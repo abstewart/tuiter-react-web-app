@@ -17,3 +17,7 @@
 .wd-search-corners {
     border-radius: 20px;
 }
+
+.fa-stack {
+    width: 2em;
+}
