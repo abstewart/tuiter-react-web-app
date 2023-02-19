@@ -23,7 +23,7 @@ const WhoToFollowListItem = who => {
                     <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
                   </span>
                 </div>
-                <div class="">${handle}</div>
+                <div class="">@${handle}</div>
               </div>
               <div class="col-4 col-xl-3 my-auto">
                 <div class="d-grid gap-2 mx-auto">
