@@ -10,6 +10,7 @@ function Tuiter() {
         <Nav/>
         <h1>Tuiter</h1>
         <PostSummaryList/>
+        <WhoToFollowList/>
       </div>
   )
 }
