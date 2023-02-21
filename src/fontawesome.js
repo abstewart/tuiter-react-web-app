@@ -4,8 +4,28 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 //import icons
 import {faCertificate} from "@fortawesome/free-solid-svg-icons";
 import {faCheck} from "@fortawesome/free-solid-svg-icons";
+import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faHouse} from "@fortawesome/free-solid-svg-icons";
+import {faHashtag} from "@fortawesome/free-solid-svg-icons";
+import {faBell} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faBookmark} from "@fortawesome/free-solid-svg-icons";
+import {faListUl} from "@fortawesome/free-solid-svg-icons";
+import {faUser} from "@fortawesome/free-solid-svg-icons";
+import {faCircle} from "@fortawesome/free-solid-svg-icons";
+import {faEllipsis} from "@fortawesome/free-solid-svg-icons";
 
 library.add(
     faCertificate,
-    faCheck
+    faCheck,
+    faTwitter,
+    faHouse,
+    faHashtag,
+    faBell,
+    faEnvelope,
+    faBookmark,
+    faListUl,
+    faUser,
+    faCircle,
+    faEllipsis
 )

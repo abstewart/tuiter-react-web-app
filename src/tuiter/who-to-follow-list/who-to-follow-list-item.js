@@ -35,7 +35,7 @@ const WhoToFollowListItem = (
               </div>
               <div className="col-4 col-xl-3 my-auto">
                 <div className="d-grid gap-2 mx-auto">
-                  <button type="button" className="btn btn-primary rounded-pill wd-follow-btn-rounded-smaller py-1">
+                  <button type="button" className="btn btn-primary wd-follow-btn-rounded-smaller py-1">
                     Follow</button>
                 </div>
               </div>
