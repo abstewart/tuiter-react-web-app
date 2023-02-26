@@ -3,12 +3,12 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../fontawesome';
 import '../index.css';
 
-const exampleListItem = {
-  avatarIcon: '../../images/virgin_logo.svg',
-  userName: 'Virgin Galactic',
-  handle: 'virgingalactic',
-
-}
+// const exampleListItem = {
+//   avatarIcon: '../../images/virgin_logo.svg',
+//   userName: 'Virgin Galactic',
+//   handle: 'virgingalactic',
+//
+// }
 
 const WhoToFollowListItem = (
     {
