@@ -7,7 +7,7 @@ import TuitStats from "./tuit-stat";
 const TuitItem = (
     {
       post = {
-        "_id": 234,
+        "_id": -1,
         "topic": "Space",
         "userName": "SpaceX",
         "time": "2h",
