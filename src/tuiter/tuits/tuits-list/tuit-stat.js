@@ -31,7 +31,7 @@ const TuitStats = (
             <FontAwesomeIcon icon="fa-arrows-rotate"/>
             <span> {post.retuits}</span>
           </div>
-          <div className="col-3" onClick={() => toggleLikedTuit(post)}>
+          <div className="col-3 wd-pointer" onClick={() => toggleLikedTuit(post)}>
             <FontAwesomeIcon icon="fa-heart" color={post.liked ? "red" : "black"}/>
             <span> {post.likes}</span>
           </div>

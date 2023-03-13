@@ -31,3 +31,7 @@
 .wd-checkmark {
     horiz-align: center;
 }
+
+.wd-pointer {
+    cursor: pointer;
+}
