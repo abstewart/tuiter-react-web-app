@@ -5,11 +5,12 @@ import WhoToFollowList from "./who-to-follow-list";
 import Nav from "../nav";
 import whoReducer
   from "./reducers/who-reducer";
+import tuitsReducer from "./tuits/tuits-reducer";
 import { configureStore }
   from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
-const store = configureStore(
-    {reducer: {who: whoReducer}});
+const store = configureStore({
+  reducer: {who: whoReducer, tuits: tuitsReducer}});
 
 function Tuiter() {
   return (
