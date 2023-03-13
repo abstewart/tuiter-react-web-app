@@ -27,3 +27,7 @@
 .wd-img-round {
     border-radius: 50%;
 }
+
+.wd-checkmark {
+    horiz-align: center;
+}

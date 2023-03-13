@@ -29,16 +29,32 @@ const TuitItem = (
           </div>
           <div className="col-10">
             <div>
-              <span><b>{post.userName}</b> </span>
-              <span className="fa-layers fa-fw">
-                <FontAwesomeIcon icon="fa-certificate" className="fa-solid fa-stack-1x"/>
-                <FontAwesomeIcon icon="fa-check" className="fa-solid fa-stack-1x fa-inverse"/>
+              <span className="fw-bold">{post.userName}&nbsp;</span>
+              <span className="fa-layers fa-xs">
+                <FontAwesomeIcon icon="fa-certificate" size="lg" color="blue"/>
+                <FontAwesomeIcon icon="fa-check" size="xs" inverse pull="left" />
               </span>
-              <span> {post.handle} </span>
-              <span> - {post.time}</span>
+              <span className="text-secondary"> &nbsp;{post.handle} </span>
+              <span className="text-secondary"> - {post.time}</span>
             </div>
-            <div className="fw-bolder">{post.topic}</div>
-            <div>{post.title}</div>
+            <div>{post.tuit}</div>
+            <div className="row">
+              <div className="col-3">
+                <FontAwesomeIcon icon="fa-regular fa-comment"/>
+                <span> {post.replies}</span>
+              </div>
+              <div className="col-3">
+                <FontAwesomeIcon icon="fa-arrows-rotate"/>
+                <span> {post.retuits}</span>
+              </div>
+              <div className="col-3">
+                <FontAwesomeIcon icon="fa-heart" color={post.liked ? "red" : "black"}/>
+                <span> {post.likes}</span>
+              </div>
+              <div className="col-3">
+                <FontAwesomeIcon icon="fa-share-nodes"/>
+              </div>
+            </div>
           </div>
         </div>
       </li>

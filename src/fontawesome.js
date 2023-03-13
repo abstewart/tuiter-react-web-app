@@ -14,6 +14,11 @@ import {faListUl} from "@fortawesome/free-solid-svg-icons";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 import {faCircle} from "@fortawesome/free-solid-svg-icons";
 import {faEllipsis} from "@fortawesome/free-solid-svg-icons";
+import {faComment} from "@fortawesome/free-regular-svg-icons";
+import {faArrowsRotate} from "@fortawesome/free-solid-svg-icons";
+import {faHeart} from "@fortawesome/free-solid-svg-icons";
+import {faShareNodes} from "@fortawesome/free-solid-svg-icons";
+
 
 library.add(
     faCertificate,
@@ -27,5 +32,10 @@ library.add(
     faListUl,
     faUser,
     faCircle,
-    faEllipsis
+    faEllipsis,
+    faComment,
+    faArrowsRotate,
+    faHeart,
+    faShareNodes
+
 )
