@@ -3,6 +3,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../../fontawesome';
 import './index.css'
 import TuitStats from "./tuit-stat";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "../tuits-reducer";
 
 const TuitItem = (
     {
@@ -22,6 +24,10 @@ const TuitItem = (
       }
     }
 ) => {
+  const dispatch = useDispatch();
+  const deleteTuitHandler = (id) => {
+    dispatch(deleteTuit(id));
+  }
   return(
       <li className="list-group-item">
         <div className="row">
@@ -30,6 +36,8 @@ const TuitItem = (
           </div>
           <div className="col-10">
             <div>
+              <i className="bi bi-x-lg float-end wd-pointer"
+                 onClick={() => deleteTuitHandler(post._id)}></i>
               <span className="fw-bold">{post.userName}&nbsp;</span>
               <span className="fa-layers fa-xs">
                 <FontAwesomeIcon icon="fa-certificate" size="lg" color="blue"/>
